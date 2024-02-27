@@ -2839,7 +2839,7 @@ margin-left:40px
     <b:include data='blog' name='google-analytics'/>
 
     <script async='async' src='https://www.gstatic.com/external_hosted/clipboardjs/clipboard.min.js'/>
-  </head>
+  &lt;/head&gt;&lt;!--</head>--&gt;
 
   <body>
     <b:class cond='data:view.isPreview' name='preview'/>
@@ -4032,6 +4032,7 @@ margin-left:40px
       </b:section>
     </aside>
 
-    <b:template-script async='true' name='strm' version='1.0.0'/>
-  </body>
+    <!-- <b:template-script async='true' name='strm' version='1.0.0'/> -->
+    <script async='async' src='https://cdn.jsdelivr.net/gh/PaPaPR/blogger_resources@latest/3685981153-strm_compiled.js'/>
+  &lt;!--</body>--&gt;&lt;/body&gt;
 </html>
